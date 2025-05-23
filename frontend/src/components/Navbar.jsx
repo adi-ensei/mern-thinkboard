@@ -1,11 +1,11 @@
-import { PlusIcon } from "lucide-react";
 import { Link } from "react-router";
+import { PlusIcon } from "lucide-react";
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <header className="bg-base-300 border-b border-base-content/10">
       <div className="mx-auto max-w-6xl p-4">
-        <div className="flex item-center justify-between">
+        <div className="flex items-center justify-between">
           <h1 className="text-3xl font-bold text-primary font-mono tracking-tight">
             ThinkBoard
           </h1>
@@ -20,5 +20,4 @@ const NavBar = () => {
     </header>
   );
 };
-
-export default NavBar;
+export default Navbar;
